@@ -16,6 +16,12 @@
 
 <https://ecma-international.org/publications-and-standards/standards/ecma-262/>
 
+浏览器进程
+
+> `CSSOM`和视觉格式化模型
+
+光栅化
+
 ## Severless
 
 ## Micro Frontend
