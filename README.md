@@ -10,6 +10,12 @@
 6. 代码优化
 7. 生成目标代码
 
+> 无头浏览器
+
+<https://www.chromium.org/blink/>
+
+<https://ecma-international.org/publications-and-standards/standards/ecma-262/>
+
 ## Severless
 
 ## Micro Frontend
