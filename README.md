@@ -16,11 +16,32 @@
 
 <https://ecma-international.org/publications-and-standards/standards/ecma-262/>
 
-浏览器进程
+GUI渲染线程和JavaScript脚本引擎线程互斥
 
 > `CSSOM`和视觉格式化模型
 
 光栅化
+
+```js
+const controller = new AbortController()
+			
+document.getElementById('scroll-bar').addEventListener('click', e=>{
+
+}, {
+  signal: controller.signal,
+  once: true,
+  capture: true,
+  passive: true,
+})
+
+
+```
+
+> 包含块
+
+注: `z-index`值的设置只会决定同一父元素中同级子元素的堆叠顺序
+
+
 
 ## Severless
 
