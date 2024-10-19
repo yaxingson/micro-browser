@@ -14,6 +14,13 @@
 
 > 无头浏览器
 
+静态作用域和词法环境、变量对象(VO)和活动对象(AO)
+
+函数调用栈
+
+客户端服务端双向通信: HTTP轮询、XHR Streaming和Server-sent events
+
+
 <https://www.chromium.org/blink/>
 
 <https://ecma-international.org/publications-and-standards/standards/ecma-262/>
