@@ -50,6 +50,15 @@ document.getElementById('scroll-bar').addEventListener('click', e=>{
 
 注: `z-index`值的设置只会决定同一父元素中同级子元素的堆叠顺序
 
+v8内存分配和垃圾回收
+
+- 新生代：Scavenge算法
+- 老生代: 标记整理清除（增量标记和三色标记法）
+
+```sh
+node --max-old-space-size=2048 
+
+```
 
 
 ## Severless
