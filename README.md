@@ -1,6 +1,6 @@
 # mini-browser
 
-> JIT（即时编译）
+> JIT（即时编译）和 AOT(预编译)
 
 编译器：
 
