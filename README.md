@@ -53,7 +53,7 @@ document.getElementById('scroll-bar').addEventListener('click', e=>{
 v8内存分配和垃圾回收
 
 - 新生代：Scavenge算法
-- 老生代: 标记整理清除（增量标记和三色标记法）
+- 老生代: 标记清除(Markup-Sweep)和标记整理(Markup-Compact)（增量标记和三色标记法）
 
 ```sh
 node --max-old-space-size=2048 
